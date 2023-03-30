@@ -1,0 +1,469 @@
+/* Estilos generales */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+  }
+  
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .btn {
+    border-radius: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: #1a2735; /* Cambiar por el color que desees */
+}
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #1a2735
+  }
+  
+  .navbar-header {
+    height: 70px;
+    color: #1a2735;
+  }
+  
+  .navbar-brand {
+    height: 70px;
+    padding: 20px;
+  }
+  
+  .navbar-brand img {
+    height: 100%;
+  }
+  
+  /* Estilos del encabezado */
+  
+  .jumbotron {
+    background-color: #f2f2f2;
+    padding: 150px 0;
+    margin-bottom: 0;
+    
+  }
+  
+  .jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a2735;
+  }
+  
+  .jumbotron p {
+    font-size: 24px;
+    color: #1a2735;
+  }
+  
+  /* Estilos de la sección de contenido */
+  
+  .services {
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1a2735;
+  }
+  
+  .services p {
+    font-size: 18px;
+    color: #1a2735;
+  }
+  
+  /* Estilos de la sección de contacto */
+  
+  .contact {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .contact{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+  }
+  .contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .contact .glyphicon {
+    font-size: 24px;
+    color: #1a2735;
+  }
+  
+  /* Estilos del pie de página */
+  
+  footer {
+    background-color: #f2f2f2;
+    color: #1a2735;
+    padding: 50px 0;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  .logo-img {
+    width: 100px;
+    height:100px;
+  }
+  header {
+    background-color: #f2f2f2; /* Cambia el valor de fondo a rojo */
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px 0;
+  }
+  #contacto {
+    padding: 80px 0;
+    margin: center
+  }
+  
+  #contacto .section-heading {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  #contacto .section-subheading {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+  }
+  
+  #contacto input,
+  #contacto textarea {
+    border-radius: 0;
+  }
+  
+  #contacto input:focus,
+  #contacto textarea:focus {
+    border-color: #18bc9c;
+    box-shadow: none;
+  }
+  
+  #contacto .help-block {
+    color: #c0392b;
+  }
+  
+  #contacto #success {
+    color: #18bc9c;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #contacto h2.section-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  }
+  
+  #contacto button[type="submit"] {
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold
+  }
+
+  .contacto {
+    margin: 0 center;
+    text-align: center;
+  }
+  .contact-image {
+    display: center;
+    margin-left: center;
+    margin-right: center;
+  }
+  .contacto-header img {
+    float: left;
+    margin: center 20px;
+    width: 100px;
+    height: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajuste la altura al 100% de la ventana gráfica */
+  }
+  
+  .contacto-header {
+    text-align: center;
+  }
+  
+  .contacto-header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  img {
+    max-width: 100%;
+    max-height: 50%;
+  }
+  .button {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    background-color: #1a2735;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #1a2735;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a2735;
+  }
+  .boton-descarga {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1a2735;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Cambiar el color de fondo y el color del texto al pasar el cursor */
+  .boton-descarga:hover {
+    background-color: #18bc9c;
+    color: #fff;
+  }
+  h2 {
+    font-family: Georgia, sans-serif;
+  }
+
+  
+  .center {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about {
+  padding: 100px 0;
+}
+
+#about h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.center-button {
+  text-align: center;
+}
+
+.slick-carousel img {
+  width: 50%;
+  height: 100px; /* ajusta la altura de acuerdo a tus necesidades */
+  object-fit: center;
+  text-align: center;
+}
+.slick-carousel {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.slick-slide img {
+  display: block;
+  margin: auto;
+  max-height: 80vh; /* Establecer la altura máxima de la imagen para que no se extienda más allá de la diapositiva */
+}
+
+.logo-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+
+}
+
+.btn-modern {
+  display: inline-block;
+  background-color: #1a2735;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 35px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-modern:hover {
+  background-color: #ee4266;
+  transform: scale(1.1);
+}
+
+.main-section {
+  min-height: calc(100vh - 100px); /* Cambiar "100px" por la altura de tu pie de página */
+}
+
+#testimonios {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#testimonios h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.testimonios-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonio {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 30px;
+  max-width: 350px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.testimonio:hover {
+  transform: translateY(-10px);
+}
+
+.testimonio-img {
+  border-radius: 50%;
+  height: 80px;
+  margin-bottom: 20px;
+  width: 80px;
+}
+
+.testimonio-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.testimonio-autor {
+  color: #666;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+#descargar-app {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#descargar-app h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#descargar-app p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.btn-apple, .btn-google {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-apple {
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.btn-google {
+  background-color: #4285f4;
+  border-radius: 8px;
+}
+
+.btn-apple:hover, .btn-google:hover {
+  background-color: #666;
+}
+
+.app-mockup {
+  max-width: 100%;
+}
+#recursos {
+  overflow-x: hidden;
+}
